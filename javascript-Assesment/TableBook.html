@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants Booking</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .text{
+            margin-left: -368px;
+            border: 1px solid black;
+            width: 30%;
+            
+        }
+        .b-t{
+            padding:30px ;
+            text-align: center;
+            color: cornsilk;
+            font-size: 40px;
+        }
+        input{
+            height: 40px;
+            width: 90%;
+            margin-right: 40px;
+            margin: 10px;
+            background-color: white;
+            /* color: white; */
+            font-size: 20px;
+            
+        }
+        select{
+            height: 40px;
+            width: 90%;
+            margin-right: 40px;
+            margin: 10px;
+            background-color: white;
+            
+            font-size: 20px;
+        }
+        option{
+            background-color: white;
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="main">
+
+            <div class="vedio">
+            <video src="istockphoto-476914726-640_adpp_is.mp4" type="vedio" width="60%" height="600px" loop autoplay muted></video>
+           </div>
+            
+           <div class="text">
+            <h1 class="b-t">Book Table</h1>
+            <select id="booking">
+                <option value="">Choice of Booking</option>
+                <option value="">Full Day Booking</option>
+                <option value="">Half Day Booking </option>
+                <option value="">Hourly Booking</option>
+            </select>
+            <input type="text" placeholder="User Name" id="name"><br>
+            <input type="text" placeholder="Mobile Number" id="number"><br>
+            <input type="text" placeholder="Email" id="email"><br>
+             <input type="date" placeholder="Date" ><br>
+             <select id="input grop">
+                <option value="">No.of person</option>
+                <option value="">1-5</option>
+                <option value="">6-10</option>
+                <option value="">10-15</option>
+             </select><br>
+            <input type="time" placeholder="Time"><br>
+            <select id="slot">
+                <option value="">Slot</option>
+                <option value="">Breakfast</option>
+                <option value="">Lunch</option>
+                <option value="">Dinner</option>
+
+            </select>
+            
+           </div>
+
+
+
+           
+        </div>
+    </div>
+    
+</body>
+</html>
