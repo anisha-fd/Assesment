@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+.nav-bar{
+    background: black;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+}
+.nav-bar img{
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+    
+}
+.menu-right{
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    span{
+        display: block;
+    }
+    ul li{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}

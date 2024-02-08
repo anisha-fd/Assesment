@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nevbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    
+</head>
+<body>
+    <!-- -----------navbar start here---------------------- -->
+    <nav>
+        <div class="nav-bar">
+            <img src="../logo.jpg">
+            <div class="menu-right">
+                <span  onclick="myfunction()">&#9776;</span>
+                
+                <ul id="menu">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Project</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ------------------navbar close here---------- -->
+
+
+
+    <!-- -----------=======js start here=====----------------------------------- -->
+
+
+    <script>
+        function myfunction(){
+              var x = document.getElementById("menu");
+
+              if(x.style.display == "block")
+              {
+                x.style.display = "none";
+              }
+              else{
+                x.style.display = "block";
+              }
+
+        }
+    </script>
+    <!-- ==========js close here-------------- -->
+    
+</body>
+</html>
