@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+.container{
+  border: 1px solid black;
+  height: 820px;
+  width: 50%;
+  background-color: azure;
+  
+}
+input{
+  padding-left: 10px;
+  margin-left: 50px;
+  
+}
